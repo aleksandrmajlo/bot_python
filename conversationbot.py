@@ -10,7 +10,7 @@ from telegram.ext import (
 )
 
 TOKEN = "7811367207:AAH39vjyrr3mqz1dvBmgr25WBf9GpGat8LI"
-WEBHOOK_URL = "https://7abc-212-30-36-154.ngrok-free.app/webhook"
+WEBHOOK_URL = "https://bot-git.fly.dev/webhook"
 
 # Enable logging
 logging.basicConfig(
