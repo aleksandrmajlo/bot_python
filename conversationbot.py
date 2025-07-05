@@ -150,12 +150,12 @@ def main() -> None:
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
     # Локальный веб-сервер
-    # application.run_webhook(
-    #     listen="0.0.0.0",
-    #     port=8080,
-    #     url_path='webhook',
-    #     webhook_url=WEBHOOK_URL
-    # )
+    application.run_webhook(
+        listen="0.0.0.0",
+        port=8080,
+        url_path='webhook',
+        webhook_url=WEBHOOK_URL
+    )
 
 if __name__ == "__main__":
     main()
